@@ -1,0 +1,209 @@
+body,
+h1,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cadastro {
+    width: 600px;
+    min-height: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+#cadastroTitulo {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: dodgerblue;
+    width: auto;
+    height: 150px;
+    text-align: center;
+    color: white;
+    font-size: 2.2em;
+}
+
+.campos {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cadastroInformacoesPessoais {
+    width: 150px;
+    height: 55px;
+    float: left;
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.cadastroEntradaDeDados {
+    width: 350px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.cadastroEntradaDeDados input {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cadastroEntradaDeDados textarea {
+    width: 250px;
+    height: 100px;
+}
+
+.enviar input {
+    width: 150px;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    margin-top: 30px;
+}
+
+.enviar {
+    width: 100;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#consultaDeDados {
+    width: 1200px;
+    min-height: 300px;
+    height: auto;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+#tblConsulta {
+    width: 100%;
+    min-height: 30px;
+    height: auto;
+}
+
+#tblTitulo {
+    width: 100%;
+    height: 30px;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    font-size: 2.1em;
+}
+
+#tblLinhas {
+    width: 100%;
+    height: 50px;
+    border: solid 1px black;
+}
+
+.tblColunas {
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    background-color: darkseagreen;
+    border: solid 1px black;
+}
+
+.tblImagens {
+    width: auto;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    /*    padding: 10px;*/
+    /*    box-sizing: border-box;*/
+}
+
+.fechar,
+.pesquisar,
+.editar {
+    width: 30px;
+    height: 30px;
+    /*    background-color: black;*/
+    float: left;
+    margin-left: 5px;
+}
+
+.fechar {
+    background-image: url(../img/close.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.pesquisar {
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.editar {
+    background-image: url(../img/edit.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+    background-color: RGBA(0, 0, 0, 0.8);
+    z-index: 999;
+    position: fixed;
+    padding-top: 10vh;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+    display: none;
+}
+
+#modalConteudo {
+    width: 60vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+#visualizar table {
+    width: inherit;
+    height: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 1.3em;
+}
+
+#visualizar table tr {
+    height: 20px;
+}
+
+#visualizar table tr td {
+    width: 50%;
+    border: solid 1px black;
+}
+
+.titulo {
+    text-align: center;
+    background-color: khaki;
+    font-size: 2.2em;
+}
+
+.imagembd {
+    width: 50px;
+    height: 50px;
+}
